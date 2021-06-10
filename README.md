@@ -1,1 +1,1 @@
-# Stripe in Next.js Demo
+# Proper Assured
