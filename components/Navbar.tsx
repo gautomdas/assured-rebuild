@@ -14,7 +14,7 @@ export const Navbar = () => {
       <nav className="flex items-center flex-wrap p-3 ">
         <Link href="/">
           <img
-            className="inline-flex items-center p-2 mr-4 h-20 lg:h-24"
+            className="inline-flex object-contain items-center p-2 mr-4 h-20 lg:h-24"
             src="/logo_big.png"
             alt="Assured Global Consulting Logo"
           />

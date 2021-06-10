@@ -85,10 +85,85 @@ export default function Home() {
 </div>
 
 
-<div className="mt-10 my-10 text-4xl lg:text-6xl font-black">
+<div className="mt-16 my-4 text-4xl lg:text-6xl font-black">
             Testimonials
           </div>
 
+
+          <div className="hover:shadow-lg rounded px-10 py-5">
+            <div className="flex-grow text-base lg:text-2xl mt-2">
+              "My Common Application essay became a menagerie of emotion and depth after my time with Assured Global Consulting. My writing became full of colour. Without them, I would not have achieved the success I have in the college admissions process."
+            </div>
+            <div className="flex-grow text-base lg:text-2xl mt-2 text-right">
+            A.K. from Hyderabad (12th)
+            </div>
+          </div>
+
+          <div className="hover:shadow-lg rounded px-10 py-5">
+            <div className="flex-grow text-base lg:text-2xl mt-2">
+              "They are AMAZING! They are EXPERTS in essay writing and consultation. Through the help of Assured Global Consulting, my son got into his dream school. I cannot thank Assured Global Consulting enough."
+            </div>
+            <div className="flex-grow text-base lg:text-2xl mt-2 text-right">
+            Mother of Anonymous International Student from North Carolina (12th)
+            </div>
+          </div>
+
+
+          <div className="hover:shadow-lg rounded px-10 py-5">
+            <div className="flex-grow text-base lg:text-2xl mt-2">
+              "Without Assured, I saw the fruits of my labours when I received acceptance into six American schools. I am excited to study in the United States of America thanks to them."
+            </div>
+            <div className="flex-grow text-base lg:text-2xl mt-2 text-right">
+            M.W. from Hangzhou (12th)
+            </div>
+          </div>
+
+
+
+          <div className="hover:shadow-lg rounded px-10 py-5">
+            <div className="flex-grow text-base lg:text-2xl mt-2">
+              "I sent my essay in and got back comments that were incredibly helpful! The Assured Team was affordable, timely, and—most of all—effective."
+            </div>
+            <div className="flex-grow text-base lg:text-2xl mt-2 text-right">
+            Matthew S. from Maryland (12th)
+            </div>
+          </div>
+
+          <div className="hover:shadow-lg rounded px-10 py-5">
+            <div className="flex-grow text-base lg:text-2xl mt-2">
+              "I did not originally believe that our family could afford “real” college admissions consulting for our daughter, but Assured provided all that and more. Check them out!"
+            </div>
+            <div className="flex-grow text-base lg:text-2xl mt-2 text-right">
+            Father of R.F. from New York (12th)
+            </div>
+          </div>
+
+          <div className="hover:shadow-lg rounded px-10 py-5">
+            <div className="flex-grow text-base lg:text-2xl mt-2">
+              "Assured received my essay, provided both specific corrections and general thematic comments, and truly took the time to give me personalized guidance about how to make it spectacular. They’re the real deal."
+            </div>
+            <div className="flex-grow text-base lg:text-2xl mt-2 text-right">
+            Anonymous Student from Delaware (11th)
+            </div>
+          </div>
+
+          <div className="hover:shadow-lg rounded px-10 py-5">
+            <div className="flex-grow text-base lg:text-2xl mt-2">
+              "Assured cleaned up some of the worst lines in my essay and helped me shape the piece from something just mediocre into something that could convey to colleges who I am and who I want to become. Thank you, Assured!"
+            </div>
+            <div className="flex-grow text-base lg:text-2xl mt-2 text-right">
+            V.S. from Pennsylvania (12th)
+            </div>
+          </div>
+
+          <div className="hover:shadow-lg rounded px-10 py-5">
+            <div className="flex-grow text-base lg:text-2xl mt-2">
+              "Assured is the place to go to for college admissions consulting. I cannot imagine what my application experience would have looked like without Shariar, Gautom, and Lintaro."
+            </div>
+            <div className="flex-grow text-base lg:text-2xl mt-2 text-right">
+            Chloe from Massachussetts (12th)
+            </div>
+          </div>
 
         </div>
       </div>
