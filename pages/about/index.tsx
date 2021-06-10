@@ -268,7 +268,7 @@ export default function Home() {
             </div>
           </div>
             <div className="flex-auto px-10">
-              <div className="text-4xl lg:text-3xl font-black">Managing Director</div>
+              <div className="text-4xl lg:text-3xl font-black">Managing Director, Lintaro Donovan</div>
               <div className="flex-grow text-base lg:text-2xl mt-2">
                 With educational experience stretching across cultural paradigms,
                 Lintaro spent his youth studying everywhere from a rural Japanese
@@ -291,7 +291,7 @@ export default function Home() {
 
           <div className="flex mt-10 hover:shadow-lg rounded p-10">
             <div className="flex-auto px-10">
-            <div className="text-4xl lg:text-3xl font-black">Director of Marketing</div>
+            <div className="text-4xl lg:text-3xl font-black">Director of Marketing, Gautom Das</div>
 
             <div className="flex-grow text-base lg:text-2xl mt-2">
               Gautom is Assured’s expert on all things STEM (science,
@@ -326,7 +326,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex-auto px-10">
-              <div className="text-4xl lg:text-3xl font-black">Director of Products and Experience</div>
+              <div className="text-4xl lg:text-3xl font-black">Director of Products and Experience, Shariar Vaez-ghaemi</div>
 
               <div className="flex-grow text-base lg:text-2xl mt-2">
                 An expert on politics, sports, and everything in between, Shariar
