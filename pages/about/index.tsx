@@ -326,7 +326,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex-auto px-10">
-              <div className="text-4xl lg:text-3xl font-black">Director of Products and Experience, Shariar Vaez-ghaemi</div>
+              <div className="text-4xl lg:text-3xl font-black">Director of Products and Experience, Shariar Vaez-Ghaemi</div>
 
               <div className="flex-grow text-base lg:text-2xl mt-2">
                 An expert on politics, sports, and everything in between, Shariar
