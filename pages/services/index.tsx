@@ -170,58 +170,6 @@ export default function Home({ prices }: IProps) {
                 Purchase
               </button>
             </div>
-
-            <div className="flex-1 rounded shadow-xl px-10 py-10">
-              <div className="flex-grow text-base font-bold lg:text-3xl  ml-3">
-                Professional Package +
-              </div>
-              <div className="flex mt-4">
-                <div className="flex-none w-5 h-5 ...">
-                  <img
-                    className="float-right h-8"
-                    src="/check.svg"
-                    alt="Assured Global Consulting Logo"
-                  />
-                </div>
-                <div className="flex-grow text-base lg:text-2xl  ml-3">
-                  Everything included in the previous packages and...
-                </div>
-              </div>
-              <div className="flex mt-4">
-                <div className="flex-none w-5 h-5 ...">
-                  <img
-                    className="float-right h-8"
-                    src="/check.svg"
-                    alt="Assured Global Consulting Logo"
-                  />
-                </div>
-                <div className="flex-grow text-base lg:text-2xl  ml-3">
-                  A ground up college plan.
-                </div>
-              </div>
-              <div className="flex mt-4">
-                <div className="flex-none w-5 h-5 ...">
-                  <img
-                    className="float-right h-8"
-                    src="/check.svg"
-                    alt="Assured Global Consulting Logo"
-                  />
-                </div>
-                <div className="flex-grow text-base lg:text-2xl  ml-3">
-                  Help selecting 12 colleges, including safeties, targets, and
-                  reach schools.
-                </div>
-              </div>
-
-              <div className=" text-base lg:text-1xl mt-5 text-gray-600">
-                This package is built from the ground up from a customer first
-                perspective. To learn more please contact us.
-              </div>
-
-              <div className="mt-5 mx-auto text-center text-base font-bold lg:text-2xl  ml-3">
-                Please Contact for Pricing
-              </div>
-            </div>
           </div>
 
           

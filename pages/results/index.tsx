@@ -147,24 +147,6 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="hover:shadow-lg rounded px-10 py-5">
-            <div className="flex-grow text-base lg:text-2xl mt-2">
-              "Assured cleaned up some of the worst lines in my essay and helped me shape the piece from something just mediocre into something that could convey to colleges who I am and who I want to become. Thank you, Assured!"
-            </div>
-            <div className="flex-grow text-base lg:text-2xl mt-2 text-right">
-            V.S. from Pennsylvania (12th)
-            </div>
-          </div>
-
-          <div className="hover:shadow-lg rounded px-10 py-5">
-            <div className="flex-grow text-base lg:text-2xl mt-2">
-              "Assured is the place to go to for college admissions consulting. I cannot imagine what my application experience would have looked like without Shariar, Gautom, and Lintaro."
-            </div>
-            <div className="flex-grow text-base lg:text-2xl mt-2 text-right">
-            Chloe from Massachussetts (12th)
-            </div>
-          </div>
-
         </div>
       </div>
       <Footer />
