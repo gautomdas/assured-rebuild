@@ -26,7 +26,7 @@ export default function Home() {
             </div>
 
             <div id="mc_embed_signup">
-            <form action="https://assuredglobalconsulting.us6.list-manage.com/subscribe/post?u=c89dbe17f7eef9d7f11747402&amp;id=97459b582a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
+            <form action="https://assuredglobalconsulting.us6.list-manage.com/subscribe/post?u=c89dbe17f7eef9d7f11747402&amp;id=97459b582a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank">
                 <div id="mc_embed_signup_scroll">
                   <div className="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="content-center bg-white hover:bg-gray-100 text-gray-800 font-semibold mt-5 py-2 px-4 border border-gray-400 rounded shadow text-base lg:text-2xl button" /></div>
                 </div>
