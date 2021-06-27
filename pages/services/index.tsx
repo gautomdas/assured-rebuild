@@ -292,7 +292,7 @@ export default function Home({ prices }: IProps) {
                       <img
                         className="float-right h-8"
                         src="/check.svg"
-                        alt="Assured Global Consulting Logo"
+                        alt="Assured Global Consulting Logo "
                       />
                     </div>
                     <div className="flex-grow text-base lg:text-2xl  ml-3">
