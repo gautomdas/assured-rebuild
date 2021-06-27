@@ -265,11 +265,26 @@ export default function Home({ prices }: IProps) {
                       />
                     </div>
                     <div className="flex-grow text-base lg:text-2xl  ml-3">
+                      Covers one full round of edits per purchase
+                    </div>
+                  </div>
+
+                  <div className="flex mt-4">
+                    <div className="flex-none w-5 h-5 ...">
+                      <img
+                        className="float-right h-8"
+                        src="/check.svg"
+                        alt="Assured Global Consulting Logo"
+                      />
+                    </div>
+                    <div className="flex-grow text-base lg:text-2xl  ml-3">
                       When purchasing,{" "}
                       <b>
                         make sure to enter the number of words in the quantity
-                        of the supplemental essays.{" "}
+                        where quantity is the number of 100 words. of the
+                        supplemental essays.{" "}
                       </b>
+                      Round the number of words down.
                     </div>
                   </div>
 
@@ -312,7 +327,7 @@ export default function Home({ prices }: IProps) {
                     </div>
                   </div>
                   <div className="mt-5 mx-auto text-center text-base font-bold lg:text-3xl  ml-3">
-                    0.14 USD per word
+                    14.00 USD per 100 words
                   </div>
 
                   <button
@@ -343,7 +358,7 @@ export default function Home({ prices }: IProps) {
                   </div>
 
                   <div className="mt-5 mx-auto text-center text-base font-bold lg:text-3xl  ml-3">
-                    119.99 USD
+                    299.99 USD
                   </div>
 
                   <button
