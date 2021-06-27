@@ -357,7 +357,7 @@ export default function Home({ prices }: IProps) {
                   </div>
 
                   <div className="mt-5 mx-auto text-center text-base font-bold lg:text-3xl  ml-3">
-                    119.99 USD
+                    299.99 USD
                   </div>
 
                   <button
