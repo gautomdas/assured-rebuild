@@ -331,7 +331,7 @@ export default function Home({ prices }: IProps) {
                   </div>
 
                   <button
-                    onClick={() => onClick("price_1J6qPPJ8MpFEqO9M0xBfu6IX")}
+                    onClick={() => onClick("price_1J6s5zJ8MpFEqO9MDqyASoy7")}
                     className="content-center bg-white hover:bg-gray-100 text-gray-800 font-semibold mt-5 py-2 px-4 border border-gray-400 rounded shadow"
                   >
                     Purchase
