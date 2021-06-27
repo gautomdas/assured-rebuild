@@ -26,7 +26,7 @@ export default function Home({ prices }: IProps) {
           adjustable_quantity: {
             enabled: true,
             minimum: 1,
-            maximum: 150,
+            maximum: 10,
           },
           quantity: 1,
         },
@@ -265,24 +265,10 @@ export default function Home({ prices }: IProps) {
                       />
                     </div>
                     <div className="flex-grow text-base lg:text-2xl  ml-3">
-                      Covers one full round of edits per purchase
-                    </div>
-                  </div>
-
-                  <div className="flex mt-4">
-                    <div className="flex-none w-5 h-5 ...">
-                      <img
-                        className="float-right h-8"
-                        src="/check.svg"
-                        alt="Assured Global Consulting Logo"
-                      />
-                    </div>
-                    <div className="flex-grow text-base lg:text-2xl  ml-3">
                       When purchasing,{" "}
                       <b>
                         make sure to enter the number of words in the quantity
-                        where quantity is the number of 10 words. of the
-                        supplemental essays.{" "}
+                        of the supplemental essays.{" "}
                       </b>
                     </div>
                   </div>
@@ -326,7 +312,7 @@ export default function Home({ prices }: IProps) {
                     </div>
                   </div>
                   <div className="mt-5 mx-auto text-center text-base font-bold lg:text-3xl  ml-3">
-                    1.40 USD per 10 words
+                    0.14 USD per word
                   </div>
 
                   <button
@@ -357,7 +343,7 @@ export default function Home({ prices }: IProps) {
                   </div>
 
                   <div className="mt-5 mx-auto text-center text-base font-bold lg:text-3xl  ml-3">
-                    299.99 USD
+                    119.99 USD
                   </div>
 
                   <button
