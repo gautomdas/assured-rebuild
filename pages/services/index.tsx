@@ -243,7 +243,7 @@ export default function Home({ prices }: IProps) {
                   </div>
 
                   <button
-                    onClick={() => onClick("price_1Itzv4J8MpFEqO9MsA2N4GCC")}
+                    onClick={() => onClick("price_1ItcngJ8MpFEqO9MOi3VQrAs")}
                     className="content-center bg-white hover:bg-gray-100 text-gray-800 font-semibold mt-5 py-2 px-4 border border-gray-400 rounded shadow"
                   >
                     Purchase
@@ -364,16 +364,16 @@ export default function Home({ prices }: IProps) {
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async () => {
-  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
-    apiVersion: "2020-08-27",
-  });
+// export const getServerSideProps: GetServerSideProps = async () => {
+//   const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
+//     apiVersion: "2020-08-27",
+//   });
 
-  const prices = await stripe.prices.list({
-    active: true,
-    limit: 10,
-    expand: ["data.product"],
-  });
+//   const prices = await stripe.prices.list({
+//     active: true,
+//     limit: 10,
+//     expand: ["data.product"],
+//   });
 
-  return { props: { prices: prices.data } };
-};
+//   return { props: { prices: prices.data } };
+// };
