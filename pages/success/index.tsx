@@ -17,12 +17,12 @@ export default function Home() {
 
         <div className="px-8 lg:px-48 mt-48 text-center justify-center">
           <div className="mt-10 my-10 text-4xl lg:text-6xl font-black">
-            Congratulations! You Have Succesfully Purchased One of Our Products
+            Congratulations! You have succesfully purchased one of our products
           </div>
           <div className="mt-10 my-10 ">
             You should be receiving an email soon in regards to next steps
             within 2-3 business days once your payment has been authorized. If
-            you do not receive an email please contact as at{" "}
+            you do not receive an email please contact us at{" "}
             <a href="mailto: contact@assuredglobalconsulting.com">
               contact@assuredglobalconsulting.com
             </a>
