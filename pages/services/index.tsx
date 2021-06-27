@@ -131,7 +131,8 @@ export default function Home({ prices }: IProps) {
                   />
                 </div>
                 <div className="text-gray-400 flex-grow text-base lg:text-2xl  ml-3">
-                  Personal Statement Review
+                  Personal Statement Review{" "}
+                  <b className="font-black">1 full rounds</b> of edits.
                 </div>
               </div>
               <div className="flex mt-4">
