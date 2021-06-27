@@ -4,8 +4,8 @@ import { useState } from "react";
 
 export const Footer = () => {
   return (
-    <div className=" px-8 py-8 lg:px-48 mt-10 lg:mt-32 items-center bg-pink">
-      <div className="flex items-center">
+    <div className="invisible md:visible lg:py-8 mt-5 lg:px-48 lg:mt-10 lg:mt-32 items-center bg-pink">
+      <div className="invisible md:visible flex items-center">
         <div className="invisible md:visible flex-1">
           <div className="text-white text-base font-semibold "> Pages </div>
           <div className="mt-3">

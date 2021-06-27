@@ -7,7 +7,7 @@ import { Footer } from "../components/Footer";
 export default function Home() {
   return (
     <div>
-      <div className="px-8 lg:px-32 ">
+      <div className="px-4 lg:px-32 ">
         <Head>
           <title>Assured Global Consulting</title>
           <link rel="icon" href="/favicon.ico" />
@@ -15,10 +15,10 @@ export default function Home() {
         </Head>
         <Navbar />
 
-        <div className="flex flex-col lg:mt-16 lg:mx-56">
+        <div className="px-4 flex flex-col lg:mt-16 lg:mx-56">
           <div className="flex flex-col-reverse justify-evenly items-center md:flex-row ...">
-            <div className="flex-1 lg:mt-10 lg:pl-16 justify-center lg:mr-24">
-              <div className="font-black text-4xl ">
+            <div className="px-8 flex-1 lg:mt-10 lg:pl-16 justify-center lg:mr-24">
+              <div className="font-black text-3xl lg:text-4xl ">
                 The college process is difficult.
               </div>
               <div className="font-black text-2xl lg:text-5xl lg:mt-5 text-pink">
@@ -42,7 +42,7 @@ export default function Home() {
                 alt="Assured Global Consulting Logo"
               />
             </div>
-            <div className="flex-1 lg:mt-10 lg:pl-16 justify-center lg:mr-24">
+            <div className="flex-1 lg:mt-10 lg:pl-16 justify-center ">
               <div className="font-black text-2xl lg:text-xl">
                 Unlike other services, we will be with you on every step of the
                 process.

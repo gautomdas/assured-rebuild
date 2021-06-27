@@ -7,7 +7,7 @@ import { Footer } from "../../components/Footer";
 export default function Home() {
   return (
     <div>
-      <div className="px-8 lg:px-32 ">
+      <div className="px-4 lg:px-32 ">
         <Head>
           <title>Assured Global Consulting</title>
           <link rel="icon" href="/favicon.ico" />
@@ -16,7 +16,7 @@ export default function Home() {
         <Navbar />
 
         <div className="px-8 lg:px-48 ">
-          <div className="mt-10 my-10 text-4xl lg:text-7xl font-black text-center">
+          <div className="mt-5 lg:mt-10 lg:my-10 text-4xl lg:text-7xl font-black text-center">
             Our Philosophy
           </div>
 
@@ -27,11 +27,11 @@ export default function Home() {
           />
           <p className="font-light  mt-3 text-base lg:text-2xl lg:leading-10 lg:mt-5">
             Getting admitted to the top American public and private universities
-            is like a duel in the the Colosseum. You might subdue your opponents
+            is like a duel in the Colosseum. You might subdue your opponents
             (also known as procrastination, the Common App portal, and
             terrifying average test scores) and find the nerves to finish an
             application. But it is unlikely you will hit the “Submit” button
-            unscathed. It is even unlikelier that you will make it out of the
+            unscathed. It is even more unlikely that you will make it out of the
             Colosseum with your health and sanity intact, ready to succeed at
             your dream college. Let’s face it: College Admissions is a bloody
             and ruthless game. At Assured Global Consulting, we give you the
