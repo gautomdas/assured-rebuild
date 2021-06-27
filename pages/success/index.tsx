@@ -17,7 +17,7 @@ export default function Home() {
 
         <div className="px-8 lg:px-48 mt-48 text-center justify-center">
           <div className="mt-10 my-10 text-4xl lg:text-6xl font-black">
-            Congratulations! You have succesfully purchased one of our products
+            Congratulations! You have successfully purchased one of our products
           </div>
           <div className="mt-10 my-10 ">
             You should be receiving an email soon in regards to next steps
