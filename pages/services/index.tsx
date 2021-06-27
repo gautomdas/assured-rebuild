@@ -26,7 +26,7 @@ export default function Home({ prices }: IProps) {
           adjustable_quantity: {
             enabled: true,
             minimum: 1,
-            maximum: 10,
+            maximum: 150,
           },
           quantity: 1,
         },
@@ -180,8 +180,7 @@ export default function Home({ prices }: IProps) {
               <div className="flex-1 content-center">
                 <div className="rounded shadow-xl px-10 py-10">
                   <div className="flex-grow text-base font-bold lg:text-3xl  ml-3">
-                    Personal Statement Review with{" "}
-                    <b className="font-black">1 full rounds</b> of edits.
+                    Personal Statement Review
                   </div>
                   <div className="flex mt-4">
                     <div className="flex-none w-5 h-5 ...">
@@ -266,10 +265,24 @@ export default function Home({ prices }: IProps) {
                       />
                     </div>
                     <div className="flex-grow text-base lg:text-2xl  ml-3">
+                      Covers one full round of edits per purchase
+                    </div>
+                  </div>
+
+                  <div className="flex mt-4">
+                    <div className="flex-none w-5 h-5 ...">
+                      <img
+                        className="float-right h-8"
+                        src="/check.svg"
+                        alt="Assured Global Consulting Logo"
+                      />
+                    </div>
+                    <div className="flex-grow text-base lg:text-2xl  ml-3">
                       When purchasing,{" "}
                       <b>
                         make sure to enter the number of words in the quantity
-                        of the supplemental essays.{" "}
+                        where quantity is the number of 10 words. of the
+                        supplemental essays.{" "}
                       </b>
                     </div>
                   </div>
@@ -313,7 +326,7 @@ export default function Home({ prices }: IProps) {
                     </div>
                   </div>
                   <div className="mt-5 mx-auto text-center text-base font-bold lg:text-3xl  ml-3">
-                    0.14 USD per word
+                    1.40 USD per 10 words
                   </div>
 
                   <button
@@ -364,16 +377,16 @@ export default function Home({ prices }: IProps) {
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async () => {
-  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
-    apiVersion: "2020-08-27",
-  });
+// export const getServerSideProps: GetServerSideProps = async () => {
+//   const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
+//     apiVersion: "2020-08-27",
+//   });
 
-  const prices = await stripe.prices.list({
-    active: true,
-    limit: 10,
-    expand: ["data.product"],
-  });
+//   const prices = await stripe.prices.list({
+//     active: true,
+//     limit: 10,
+//     expand: ["data.product"],
+//   });
 
-  return { props: { prices: prices.data } };
-};
+//   return { props: { prices: prices.data } };
+// };
