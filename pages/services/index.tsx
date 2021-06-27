@@ -20,19 +20,8 @@ export default function Home({ prices }: IProps) {
     const session = await createCheckoutSession({
       success_url: window.location.href,
       cancel_url: window.location.href,
-      line_items: [
-        {
-          price: priceId,
-          adjustable_quantity: {
-            enabled: true,
-            minimum: 1,
-            maximum: 1500,
-          },
-          quantity: 1,
-        },
-      ],
+      line_items: [{ price: priceId, quantity: 1 }],
       payment_method_types: ["card"],
-      allow_promotion_codes: true,
       mode: "payment",
     });
     const stripe = await loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY);
