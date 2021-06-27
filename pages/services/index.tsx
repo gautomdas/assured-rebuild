@@ -18,7 +18,7 @@ interface IProps {
 export default function Home({ prices }: IProps) {
   const onClick = async (priceId: string) => {
     const session = await createCheckoutSession({
-      success_url: window.location.href,
+      success_url: "assuredglobalconsulting.com/success",
       cancel_url: window.location.href,
       line_items: [
         {

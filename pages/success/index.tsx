@@ -17,11 +17,20 @@ export default function Home() {
 
         <div className="px-8 lg:px-48 mt-48 text-center justify-center">
           <div className="mt-10 my-10 text-4xl lg:text-6xl font-black">
-            Form Submitted Succesfully
+            Congratulations! You Have Succesfully Purchased One of Our Products
           </div>
           <div className="mt-10 my-10 ">
-            Thanks! We got your information and will get back to you in 3-5
-            business days.
+            You should be receiving an email soon in regards to next steps
+            within 2-3 business days once your payment has been authorized. If
+            you do not receive an email please contact as at{" "}
+            <a href="mailto: contact@assuredglobalconsulting.com">
+              contact@assuredglobalconsulting.com
+            </a>
+            . In your email, please include the invoice number, the email you
+            used in your purchase, and the product you bought.
+          </div>
+          <div className="mt-10 my-10 text-3xl lg:text-5xl font-black">
+            Again, thanks for shopping with us!
           </div>
         </div>
       </div>
