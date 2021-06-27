@@ -26,7 +26,7 @@ export default function Home({ prices }: IProps) {
           adjustable_quantity: {
             enabled: true,
             minimum: 1,
-            maximum: 10,
+            maximum: 1500,
           },
           quantity: 1,
         },
